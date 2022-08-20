@@ -1,6 +1,6 @@
 <template>
-  <v-container class="mt-0 pt-0">
-    <v-row>
+  <v-container class="pt-15  mt-0 pt-0 pr-0 mr-0">
+    <v-row class="mr-0 pr-0">
       <v-col lg="6">
         <h2 class="intro-text">Welcome to my Portfolio</h2>
         <p class="description">
@@ -11,8 +11,13 @@
         </p>
         <v-btn color="success" rounded>Explore about me</v-btn>
       </v-col>
-      <v-col lg="6">
-        <img width="100%" height="100%" src="../assets/Me.jpg" alt="" />
+      <v-col lg="6" class="pr-0">
+        <img
+          width="100%"
+          height="100%"
+          src="../assets/software-dev.jpeg"
+          alt=""
+        />
       </v-col>
     </v-row>
   </v-container>
@@ -31,5 +36,9 @@ h2.intro-text {
 }
 
 p.description {
+  font-size: 19px;
+  font-family: cursive;
+  margin: 32px 0px;
+  color: #444444ba;
 }
 </style>
